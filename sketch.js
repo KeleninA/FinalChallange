@@ -116,7 +116,7 @@ function draw() {
     keypressedNow = false;
   }
   
-  if(input.length == song.length) {
+  if(input.length+1 == song.length) {
     //for(let i = 0; i < input.length; i++) {
       //if(input[i] != song[i]) {
       //  input = [];
@@ -124,7 +124,7 @@ function draw() {
      // } else {
         //for(let i = 0; i < 50; i++) {
           let a = createA('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '🍀', '_blank');
-          a.position(190, 400);
+          a.position(190, 420);
           text("Good Job!!!", 170, 30);
           playSong.play();
           image(link_sword, 50, 50, 300, 300);
