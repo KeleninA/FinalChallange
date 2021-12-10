@@ -124,7 +124,7 @@ function draw() {
      // } else {
         //for(let i = 0; i < 50; i++) {
           let a = createA('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '🍀', '_blank');
-          a.position(190, 30);
+          a.position(190, 400);
           text("Good Job!!!", 170, 30);
           playSong.play();
           image(link_sword, 50, 50, 300, 300);
