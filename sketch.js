@@ -88,13 +88,12 @@ function draw() {
   //loop();
   
   oneKeyPress();
-  /*
-  text(input[0], 20, 30)
+
   for(let i = 0; i < keypress+1; i++) {
     text(input[i], 20+20*i, 30);
-    text(input.length+1, 10, 60+20*i);
+    //text(input.length+1, 10, 60+20*i);
   }
-  */
+  
   //noLoop();
   //oneKeyPress();
   //loop();
@@ -116,7 +115,7 @@ function draw() {
     keypressedNow = false;
   }
   
-  if(input.length+1 == song.length) {
+  if(input.length == song.length) {
     //for(let i = 0; i < input.length; i++) {
       //if(input[i] != song[i]) {
       //  input = [];
@@ -125,7 +124,7 @@ function draw() {
         //for(let i = 0; i < 50; i++) {
           let a = createA('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '🍀', '_blank');
           a.position(190, 420);
-          text("Good Job!!!", 170, 30);
+          text("Good Job!!!", 170, 700);
           playSong.play();
           image(link_sword, 50, 50, 300, 300);
           noLoop();
