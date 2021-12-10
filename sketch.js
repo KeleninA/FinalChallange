@@ -123,7 +123,7 @@ function draw() {
         //keypress = 0;
      // } else {
         //for(let i = 0; i < 50; i++) {
-          let a = createA('https://kelenina.github.io/SecondChallange/', '🍀', '_blank');
+          let a = createA('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '🍀', '_blank');
           a.position(190, 30);
           text("Good Job!!!", 170, 30);
           playSong.play();
